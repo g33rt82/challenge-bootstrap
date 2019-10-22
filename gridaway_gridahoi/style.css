@@ -1,0 +1,21 @@
+a:hover{
+    background-color: dodgerblue;
+    color:white  !important;
+    box-shadow: 0 10px powderblue;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    width:100%;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
